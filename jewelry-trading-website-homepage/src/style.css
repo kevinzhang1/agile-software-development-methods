@@ -1,0 +1,79 @@
+#title {
+    font-size: 400%;
+    width: 60vmax;
+  }
+
+.center {
+    margin: auto;
+    text-align: center;
+  }
+
+  @media only screen and (min-width:1200px)
+  {
+ .font {
+    padding: 0px 200px 15px 200px;
+        }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  font-family: 'Poppins';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+	font-family: 'Lato';
+	background-color: #f3f4f5;
+}
+nav ul {
+	list-style: none;
+	font-size: 21px;
+	display: flex;
+	justify-content: end;
+}
+nav ul li {
+	margin-right: 26px;
+}
+nav ul li a {
+	color: black;
+}
+nav ul li a:link {
+	text-decoration: none;
+}
+
+.container {
+  place-items: center;  
+  text-align: center;
+}
+
+.slogan {
+  font-family: "Times-New-Roman", sans-serif;
+  font-weight: 600;
+  font-size: 8.3vw;
+  text-transform: uppercase;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
